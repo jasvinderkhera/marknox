@@ -1,11 +1,4 @@
 import React from "react";
-import music from "./images/music-player.png";
-import eduford from "./images/eduford.png";
-import udemy from "./images/udemy.png";
-import zaydn from "./images/zaydn.png";
-import flatmate from "./images/flatmate.png";
-import legal from "./images/legal.png";
-import crud_operations from "./images/crud_operations.png";
 import { Link } from "react-router-dom";
 
 function Projects() {
