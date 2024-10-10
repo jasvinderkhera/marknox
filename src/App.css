@@ -1,0 +1,72 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+body {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.nav-link {
+  padding: 10px 20px;
+  text-align: center;
+}
+
+.nav-link.active {
+  font-weight: bold;
+  background-color: #007bff;
+  color: white;
+}
+.list-group-item {
+  padding: 0;
+}
+
+.project_img{
+    height: 200px;
+    width: 230px;
+}
+.project_div{
+    height: 250px;
+    width: 250px;
+}
+.project_row{
+  margin-left: 70px;
+}
+.projectDetailImage img{
+  width: 900px;
+  height: 500px;
+}
+.github_btn{
+  text-decoration: none;
+  display: inline-block;
+  padding: 10px 35px;
+  background-color: black;
+  color: white;
+  border-radius: 7px;
+}
+
+
+@media screen and (max-width:768px) {
+  .nav-link {
+    padding: 5px 8px;
+  }
+  .project_row{
+    margin: auto;
+  }
+  .project_div{
+    width: 100%;
+  }
+  .project_img{
+    width: 100%;
+  }
+  .projectDetailImage img{
+    width: 300px;
+    height: 300px;
+  }
+  .project_main_container{
+    padding: 30px 0;
+  }
+  .project_detail_container{
+    padding: 30px 0 ;
+  }
+}
